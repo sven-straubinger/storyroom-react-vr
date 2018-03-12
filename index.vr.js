@@ -19,7 +19,7 @@ export default class WelcomeToVR extends React.Component {
             width: 1,
             height: 1,
             layoutOrigin: [0.5, 0.5],
-            transform: [{translate: [0, 0, -3]}],
+            transform: [{translate: [0, 0, -5]}],
           }}
         />
       </View>
