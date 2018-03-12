@@ -1,0 +1,19 @@
+{
+  "apps": [
+    {
+      "name": "storyroom-react-vr",
+      "script": "./node_modules/react-native/local-cli/cli.js start",
+      "args": [],
+      "watch": true,
+      "node_args": "",
+      "merge_logs": true,
+      "cwd": ".",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "env_production": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
