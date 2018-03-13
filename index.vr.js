@@ -8,12 +8,11 @@ import {
   View,
 } from 'react-vr';
 
-export default class WelcomeToVR extends React.Component {
+export default class Storyroom extends React.Component {
   render() {
     return (
       <View>
         <Pano source={asset('forrest-world.jpg')}/>
-
         <Image source={asset('wappen.png')}
           style={{
             width: 1,
@@ -27,4 +26,4 @@ export default class WelcomeToVR extends React.Component {
   }
 };
 
-AppRegistry.registerComponent('WelcomeToVR', () => WelcomeToVR);
+AppRegistry.registerComponent('Storyroom', () => Storyroom);
